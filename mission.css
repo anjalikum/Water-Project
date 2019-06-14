@@ -1,0 +1,196 @@
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-attachment: fixed;
+}
+
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+header, footer
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	  padding: 5em 3em;
+	  text-align: center;
+    background: #555;
+}
+
+header h1
+{
+    color: #AAA;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+footer span
+{
+  color: #AAA;
+}
+
+#nav.container
+{
+  font-family: Raleway;
+  margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+  width: 100%;
+}
+
+#nav.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    /* padding: 10px 10px; */
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.blue
+{
+    background: #416082; good
+}
+
+/* Circle behind */
+#nav.circleBehind a:before, #nav.circleBehind a:after
+{
+    position: absolute;
+    top: 16.1px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #004461;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+#nav.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+#nav.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+#nav.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+/* .logo {
+    font-size: 45px;
+    color: white;
+    image: url(https://www.shutterstock.com/image-vector/ecology-design-over-brown-background-vector-192485597);
+} */
+
+
+
+
+
+
+.content {
+  border: solid 8px #999970;
+  background-color: none;
+  color: black;
+}
+
+.highlightme { background-color:#FFFF00; }
+h1 { background-color:#FFFFFF; }
+
+div {
+  /* border: solid 5px; */
+  /* justify-content: center;
+  justify-content: space-between;
+  text-align: center; */
+  /* background-color: #999970; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sectionColor{
+  border: solid 8px #756000;
+  background-color: none;
+  color: black;
+  text-align: center;
+  /* background-color: #999970; */
+  /* justify-content: center;
+  justify-content: space-between;
+  text-align: center; */
+  align-content: center;
+}
+
+.milkyway {color: black;
+        border: 8px;
+        background-color: #455C82}
+
+p {
+  color: white;
+  font-size: 25px;
+}
+
+.sectionColor img {width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 4px;
+    border-color: #DEEAFF;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+  }
+
+/* * {
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Josefin Slab', serif;
+    background-attachment: fixed;
+  } */
+
+  /* h1 {
+    border: solid 5px black;
+    text-align: center;
+    background-color: #999970;
+    color: #FFF9DE;
+    } */
+
+/* h2 {
+  border: solid 5px;
+  text-align: center;
+  background-color: #DEEAFF;
+  } */
+
+body {
+    /* background-image: url(https://storage.needpix.com/rsynced_images/bubble-background.jpg); */
+    /* background-image: url(https://ak6.picdn.net/shutterstock/videos/14603956/thumb/1.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/14/07/33/ink-2229457_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+@media only screen and (max-width: 500px) {
+  * }
